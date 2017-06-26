@@ -12,6 +12,7 @@ A simple Analyzer for BGP route data from RouteView project.
 ![Imgur](http://i.imgur.com/dvzVOfB.png)
 
 取对数稍加处理
+
 ![Imgur](http://i.imgur.com/nBLcT3Y.png)
 
 两者取对数之后，总体来看成线性关系，即当IP前缀增长时，对应的AS数量成指数下降
@@ -20,6 +21,7 @@ A simple Analyzer for BGP route data from RouteView project.
 ![Imgur](http://i.imgur.com/3dAHxAQ.png)
 
 取对数处理
+
 ![Imgur](http://i.imgur.com/CXL0sP8.png)
 
 取对数后两者的线性关系也不是特别明显，而是出现分块现象，这可能是由于A、B、C类地址数量差异较大造成
